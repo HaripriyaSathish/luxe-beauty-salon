@@ -8,7 +8,7 @@ function About({ siteContent, stats }) {
   if (!siteContent) return null
 
   return (
-    <section id="about" className="border-t border-[var(--color-border)] bg-[var(--color-secondary)]/30 py-16 lg:py-24">
+    <section id="about" className="border-t border-[var(--color-border)] bg-[var(--color-secondary)]/30 py-10 lg:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div ref={ref} className="grid items-center gap-10 lg:grid-cols-2 lg:gap-12">
           {/* Stats grid */}

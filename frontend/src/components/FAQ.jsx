@@ -11,7 +11,7 @@ function FAQ({ siteContent, items }) {
   }
 
   return (
-    <section id="faq" className="py-16 lg:py-24">
+    <section id="faq" className="py-10 lg:py-16">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-[var(--color-foreground)]">

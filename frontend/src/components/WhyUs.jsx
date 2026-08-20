@@ -15,7 +15,7 @@ function WhyUs({ siteContent, features }) {
   if (!siteContent || !features || features.length === 0) return null
 
   return (
-    <section id="why-us" className="py-16 lg:py-24">
+    <section id="why-us" className="py-10 lg:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-[var(--color-foreground)]">

@@ -5,7 +5,7 @@ function Offers({ offers, whatsappNumber }) {
   if (!offers || offers.length === 0) return null
 
   return (
-    <section id="offers" className="py-16 lg:py-24">
+    <section id="offers" className="py-10 lg:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-[var(--color-secondary)] px-4 py-1.5 text-xs sm:text-sm font-medium text-[var(--color-primary)]">
